@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Meteo App</title>
+
+</head>
+<body>
+    
+    <div class="container" id="container">
+        
+        <h1>Méteo</h1>
+        <form>
+            <input type="text" class="input" id="input" placeholder="Entrez votre ville">
+            <button type="submit" class="btn">Rechercher</button>
+        </form>
+
+        <div class="card" id="card">
+            
+            <span class="rond"></span>
+
+            <span class="barre1"></span>
+            <span class="barre2"></span>
+            <span class="barre3"></span>
+
+            
+            <div class="card-top" id="card-top">
+                <div class="ville"></div>
+                <div class="temp"></div>
+                <div class="description"></div>
+            </div>
+
+            <div class="card-bot">
+                <div class="text1">
+                    <div class="date1">Humidité</div>
+                    <div class="humidity"></div>
+                    <div class="icone1"><i class="fa-solid fa-droplet"></i></div>
+                </div>
+
+                <div class="text2">
+                    <div class="date2">Vent</div>
+                    <div class="vent"></div>
+                    <div class="icone2"><i class="fa-solid fa-wind"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
